@@ -24,8 +24,12 @@
     position: relative;
 }
 @media (max-width:767px) {
-    .contactForm,.aboutContent,.projects,.FeedBackContainer,.footer-container,.bannerContainer{
+    .aboutContent,.footer-container,.bannerContainer{
         margin-left: 15px;
+    }
+    .FeedBackContainer,.contactForm{
+        margin-left: 5px;
+
     }
     
 }
