@@ -181,7 +181,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className=" mt-5 mb-5 container">
+      <div className=" mt-5 mb-5 projects container">
         <h3 className="text-center mb-5 pb-2 color">My Works</h3>
         <div className="row mx-1 justify-content-center">
           <div className="col-md-4 p-0">

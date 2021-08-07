@@ -6,6 +6,7 @@
     background-size: cover;
     background-position: 50% 50%;
     height: 550px;
+    margin: auto;
 
 }
 .contactForm::before{
@@ -21,4 +22,10 @@
 
 .contactForm form,h1,p{
     position: relative;
+}
+@media (max-width:767px) {
+    .contactForm,.aboutContent,.projects,.FeedBackContainer,.footer-container{
+        margin-left: 15px;
+    }
+    
 }

@@ -11,7 +11,7 @@ const ContactForm = () => {
   } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <div  className="container m-auto  mb-5 mt-5 pt-5 contactForm">
+    <div  className="container  mb-5 mt-5 pt-5 contactForm">
       <div className="row justify-content-center">
         <div className="col-md-6">
             <h1 className="mt-2 mb-3 text-center text-light">Leave a Message</h1>
