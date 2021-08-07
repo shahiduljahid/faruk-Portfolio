@@ -1,0 +1,25 @@
+.WorkContent {
+    
+    margin: 15px!important;
+    opacity: .93!important;
+    border: 1.7px solid #ff9933;
+    vertical-align: middle!important;
+    /* text-align: center!important; */
+    border-radius: 5px!important;
+    display: table!important;
+    box-shadow: 4px 5px 4px 3px tomato;
+    overflow: hidden!important;
+    transition: all .4s ease 0s!important;
+
+}
+
+.WorkContent:hover{
+    -webkit-transform: scale(1.05)!important;
+    transform: scale(1.05)!important;
+    overflow: hidden!important;
+    border: 2.2px solid #ff9933;
+}
+.WorkContent p{
+    font-size: 14px;
+    color: #000000ba;
+}

@@ -1,0 +1,24 @@
+.contactForm{
+    position: relative; 
+   
+    background-image: url('./../../Photos/blake-connally-B3l0g6HLxr8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 550px;
+
+}
+.contactForm::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #ffffff38;
+
+}
+
+.contactForm form,h1,p{
+    position: relative;
+}
