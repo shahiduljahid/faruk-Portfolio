@@ -86,7 +86,7 @@ const Footer = () => {
 
 
             </div>
-            <div className="col-md-3 mb-2 ">
+            <div className="col-md-4 mb-2 ">
             <h4 className="color mb-3">Make Call</h4>
               <p className="m-0">+880 1234 4567 890</p>
               <p className="m-0">+880 1234 5678 900</p>
