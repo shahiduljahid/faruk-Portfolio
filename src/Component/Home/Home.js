@@ -139,7 +139,7 @@ const Home = () => {
         <div className="row content  mb-5 justify-content-center ">
           <div
             style={{ textAlign: "left" }}
-            className="col-md-4 ms-5 mb-5 offset-md-1    mt-5 "
+            className="col-md-3 col-11  mb-5 offset-md-1    mt-5 "
           >
             <p style={{ color: "white" }}>GET EVERY SINGLE SOLUTION</p>
             <h1 style={{ color: "white" }}>
