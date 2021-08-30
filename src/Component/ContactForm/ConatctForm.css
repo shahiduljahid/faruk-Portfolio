@@ -23,13 +23,8 @@
 .contactForm form,h1,p{
     position: relative;
 }
-@media (max-width:767px) {
-    .aboutContent,.footer-container,.bannerContainer{
-        margin-left: 15px;
-    }
-    .FeedBackContainer,.contactForm{
-        margin-left: 5px;
-
-    }
-    
+#mailSend{
+    text-align: center;
+    position: absolute;
+    top: 50%;
 }

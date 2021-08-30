@@ -152,12 +152,16 @@ const Home = () => {
             </p>
 
             <div className="d-flex">
+              <a href="https://faruk-portfolio.web.app/" target="_blank"rel="noreferrer">
               <button className="btn text-bold text-dark  btn-color me-2">
                 Portfolio
               </button>
+              </a>
+              <a href="https://www.facebook.com/F.A.shuvo.91221/" target="_blank"rel="noreferrer">
               <button className="btn text-bold text-dark btn-color ms-2">
                 Contact
               </button>
+              </a>
             </div>
           </div>
           <div className="bannerImage col-md-5 offset-md-1 ">
@@ -173,7 +177,7 @@ const Home = () => {
 
       <About></About>
 
-      <div className="workContainer mt-5 mb-5 container">
+      <div id="skill" className="workContainer mt-5 mb-5 container">
         <h3 className="text-center mb-5 pb-2 color">Professional Services</h3>
         <div className="row justify-content-between">
           {works.map((pd) => (
@@ -181,7 +185,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className=" mt-5 mb-5 projects container">
+      <div id="project" className=" mt-5 mb-5 projects container">
         <h3 className="text-center mb-5 pb-2 color">My Works</h3>
         <div className="row mx-1 justify-content-center">
           <div className="col-md-4 p-0">

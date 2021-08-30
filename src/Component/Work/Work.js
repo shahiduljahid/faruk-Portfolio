@@ -3,7 +3,7 @@ import './Work.css'
 
 const Work = ({work}) => {
     return (
-        <div className="col-md-3 WorkContent mx-2 mb-5 rounded shadow px-4 py-5">
+        <div className="col-md-3 WorkContent mx-1 mb-5 rounded shadow px-4 py-5">
 
             <div className="d-flex mb-2">
 

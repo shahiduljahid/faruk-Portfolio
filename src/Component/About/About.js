@@ -6,7 +6,7 @@ const About = () => {
     <div className="container mt-5 mb-5 pb-5">
       <h3 className="text-center mb-5 pb-2 color">About Me</h3>
       <div className="row justify-content-around">
-        <div className="col-md-3 pt-5 mb-5  offset-md-1">
+        <div  data-aos="fade-right" className="col-md-3 pt-5 mb-5  offset-md-1">
           <h1 className="mb-5">
             Designing with passion While Exploring The World
           </h1>
@@ -14,7 +14,7 @@ const About = () => {
             Download CV
           </button>
         </div>
-        <div className="col-md-5 shadow  col-11 py-5 px-5 rounded aboutContent">
+        <div  data-aos="fade-left" className="col-md-5 shadow  col-11 py-5 px-5 rounded aboutContent">
           <p>
             I specialize in building complex web applications, leading front-end
             teams, digital product design and developing visual design systems.

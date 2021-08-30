@@ -1,6 +1,6 @@
 import {
   faFacebookF,
-  faGooglePlusG,
+ 
   faInstagram,
   faLinkedinIn,
   faTwitter,
@@ -22,7 +22,7 @@ const Footer = () => {
             <ul className="navbar-nav">
               <li className="nav-item ">
                 <a
-                  href="https://www.facebook.com/Shahidul.3333/"
+                  href="https://www.facebook.com/F.A.shuvo.91221/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -33,7 +33,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://twitter.com/shahidulJahid1"
+                  href="https://twitter.com/FarukAh04947994"
                   target="_blank "
                   rel="noreferrer"
                 >
@@ -44,7 +44,7 @@ const Footer = () => {
                   />
                 </a>
 
-                <a href="2" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/faruk_shuvo_91221/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon
                     style={{ fontSize: "20px" }}
                     className="socialLink me-3  color"
@@ -52,7 +52,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/shahiduljahid71/"
+                  href="https://www.linkedin.com/in/faruk-ahmed-78b23721b/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -81,19 +81,19 @@ const Footer = () => {
             <div className="col-md-3 mb-2">
 
               <h4 className="color mb-3">Send Mail</h4>
-              <p className="m-0">faruk@gmail.com</p>
-              <p className="m-0">me@gmail.com</p>
+              <p className="m-0">mr.n91221@gmail.com</p>
+            
 
 
             </div>
             <div className="col-md-4 mb-2 ">
             <h4 className="color mb-3">Make Call</h4>
-              <p className="m-0">+880 1234 4567 890</p>
-              <p className="m-0">+880 1234 5678 900</p>
+              <p className="m-0">+880 1985715536</p>
+              
             </div>
             <div className="col-md-3 mb-2">
             <h4 className="color mb-3">Address</h4>
-              <p className="m-0">Gulshan,Dhaka</p>
+              <p className="m-0">Narayanganj,Dhaka</p>
               <p className="m-0">Bangladesh.</p>
             </div>
           </div>

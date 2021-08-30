@@ -7,16 +7,14 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light p-2">
       <div className="container-fluid mx-2">
         <div className="align-items-center d-flex">
-          <Link style={{textDecoration:'none'}}    to={"/home"}>
-
-          <span
-            style={{ color:'#ff9933', fontWeight: "bold", fontSize: "20px" }}
-            className=""
-          >
-            Faroook
-          </span>
+          <Link style={{ textDecoration: "none" }} to={"/home"}>
+            <span
+              style={{ color: "#ff9933", fontWeight: "bold", fontSize: "20px" }}
+              className=""
+            >
+              Faroook
+            </span>
           </Link>
-          
         </div>
 
         <button
@@ -42,24 +40,28 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item ">
-              <Link to={"skills"} className="nav-link text-light text-bold  me-5 ">
+              <a href="#skill" className="nav-link text-light text-bold  me-5 ">
                 Skills
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item ">
-              <Link to={"/projects"} className="nav-link text-light text-bold  me-5 ">
+              <a
+                href="#project"
+                className="nav-link text-light text-bold  me-5 "
+              >
                 Projects
-              </Link>
+              </a>
             </li>
             <li className="nav-item ">
-              <Link
-                to={"/contact"}
+              <a
+                href="#contact"
                 className="nav-link text-light text-bold   navigation me-5  "
               >
                 Contact
-              </Link>
+              </a>
             </li>
+
             {/* <li className="nav-item ">
               <Link
                 to={"/blogs"}

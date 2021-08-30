@@ -23,3 +23,16 @@
     font-size: 14px;
     color: #000000ba;
 }
+ @media (max-width:767px) {
+    .WorkContent:hover{
+        -webkit-transform: scale(1.01)!important;
+        transform: scale(1.01)!important;
+        overflow: hidden!important;
+        border: 2.2px solid #ff9933;
+    }
+    .WorkContent{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+     
+ }
